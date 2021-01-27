@@ -15,35 +15,38 @@
 
                 
                 <?php
+                //$lines = file("resources_26904f63-e13a-450c-85c7-954b66229871_summary-of-all-offences-2003-2015.csv");
+                //$row = $lines[]
+
                 print <<< HERE
-                    <table border = "1">
-                    <tr>
-                        <th>Offence</th>
-                        <th>2003</tr>
-                        <th>2004</tr>
-                        <th>2005</tr>
-                        <th>2006</tr>
-                        <th>2007</tr>
-                        <th>2008</tr>
-                        <th>2009</tr>
-                        <th>2010</tr>
-                        <th>2011</tr>
-                        <th>2012</tr>
-                        <th>2013</tr>
-                        <th>2014</tr>
-                        <th>2015</tr>
-                    </tr>
-                HERE;
+    <table id="crimeTable" border = "1">
+    <tr>
+    <th>Offence</th>
+    <th>2003</th>
+    <th>2004</th>
+    <th>2005</th>
+    <th>2006</th>
+    <th>2007</th>
+    <th>2008</th>
+    <th>2009</th>
+    <th>2010</th>
+    <th>2011</th>
+    <th>2012</th>
+    <th>2013</th>
+    <th>2014</th>
+    <th>2015</th>
+    </tr>
+HERE;
 
                 $data = file("resources_26904f63-e13a-450c-85c7-954b66229871_summary-of-all-offences-2003-2015.csv");
                 $count = 0;
 
                 foreach ($data as $line)
                 {
-                    $count++;
-                    if ($count == 15)
+                    ++$count;
+                    if ($count == 20)
                     {
-                        $lineArray = explode("t", $line);
+                        $lineArray = explode(",", $line);
                         list($offence, $y03, $y04, $y05, $y06, $y07, $y08, $y09, $y10, $y11, $y12, $y13, $y14, $y15) = $lineArray;
                         print <<< HERE
     <tr>
@@ -65,7 +68,7 @@
 HERE;
                     }
                 }
-                print "</table> n";
+                print "</table>";
                 ?>
             </div>
         </div>

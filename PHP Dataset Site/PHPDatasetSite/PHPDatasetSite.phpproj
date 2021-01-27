@@ -35,7 +35,4 @@
     <Folder Include="Properties\" />
     <Folder Include="src\model\" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="src\model\resources_26904f63-e13a-450c-85c7-954b66229871_summary-of-all-offences-2003-2015.csv" />
-  </ItemGroup>
 </Project>
