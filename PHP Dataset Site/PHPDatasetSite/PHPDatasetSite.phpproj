@@ -36,6 +36,7 @@
     <Folder Include="src\model\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="public\navbar.html" />
+    <Content Include="public\navbar_index.html" />
+    <Content Include="public\navbar_data.html" />
   </ItemGroup>
 </Project>

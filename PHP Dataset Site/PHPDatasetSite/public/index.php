@@ -5,7 +5,7 @@
 </head>
 <body class="bginfo">
     <?php
-    include_once 'navbar.html';
+    include_once 'navbar_index.html';
     ?>
 
     <div class="container-fluid col-md-10 offset-md-1">
