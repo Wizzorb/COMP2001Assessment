@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    Dataset Index
+    <title>Dataset Site</title>
 </head>
 <body class="bginfo">
     <?php
@@ -11,15 +11,24 @@
     <div class="container-fluid col-md-10 offset-md-1">
         <div class="row">
             <div class="card mt-3 px-2 py-2">
-                
-
-                
                 <?php
                 //$lines = file("resources_26904f63-e13a-450c-85c7-954b66229871_summary-of-all-offences-2003-2015.csv");
                 //$row = $lines[]
 
                 print <<< HERE
-    <table id="crimeTable" border = "1">
+    <style>
+    table, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    }
+    td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:0 15px;
+    }
+    </style>
+
+    <table id="crimeTable" style="width:100%">
     <tr>
     <th>Offence</th>
     <th>2003</th>
@@ -75,7 +84,7 @@ HERE;
     </div>
 
     <?php
-    include_once 'public/footer.php';
+    include_once 'footer.html';
     ?>
 </body>
 </html>

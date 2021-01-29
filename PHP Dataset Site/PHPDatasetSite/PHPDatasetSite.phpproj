@@ -19,8 +19,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="public\data.php" />
-    <Compile Include="public\footer.php" />
-    <Compile Include="public\header.php" />
     <Compile Include="public\index.php" />
   </ItemGroup>
   <ItemGroup>
@@ -36,6 +34,7 @@
     <Folder Include="src\model\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="public\footer.html" />
     <Content Include="public\navbar_index.html" />
     <Content Include="public\navbar_data.html" />
   </ItemGroup>

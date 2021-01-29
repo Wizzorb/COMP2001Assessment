@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    Dataset Index
+    <title>Dataset Site</title>
 </head>
 <body class="bginfo">
     <?php
@@ -21,7 +21,7 @@
     </div>
 
     <?php
-    include_once 'public/footer.php';
+    include_once 'footer.html';
     ?>
 </body>
 </html>
