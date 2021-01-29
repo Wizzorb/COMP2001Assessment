@@ -35,4 +35,7 @@
     <Folder Include="Properties\" />
     <Folder Include="src\model\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="public\navbar.html" />
+  </ItemGroup>
 </Project>
