@@ -2,6 +2,19 @@
 <html lang="en">
 <head>
     <title>Dataset Site</title>
+
+    <script type="text/turtle">
+    {
+        @prefix hcard: <http://microformats.org/profile/hcard#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix schema: <http://schema.org/> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+                                                
+        <https://plymouth.thedata.place/dataset/crime/resource/26904f63-e13a-450c-85c7-954b66229871?inner_span=True>
+    }
+    </script>
 </head>
 <body class="bginfo">
     <?php
@@ -47,7 +60,7 @@
     </tr>
 HERE;
 
-                $data = file("resources_26904f63-e13a-450c-85c7-954b66229871_summary-of-all-offences-2003-2015.csv");
+                $data = file("entity/resources_26904f63-e13a-450c-85c7-954b66229871_summary-of-all-offences-2003-2015.csv");
                 $count = 0;
 
                 foreach ($data as $line)

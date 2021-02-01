@@ -19,21 +19,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="public\data.php" />
+    <Compile Include="public\data2.php" />
     <Compile Include="public\index.php" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="assets\" />
-    <Folder Include="assets\css\" />
-    <Folder Include="assets\img\" />
-    <Folder Include="assets\js\" />
-    <Folder Include="config\" />
-    <Folder Include="entity\" />
-    <Folder Include="src\" />
+    <Folder Include="public\entity\" />
     <Folder Include="public\" />
     <Folder Include="Properties\" />
-    <Folder Include="src\model\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="public\entity\entity.json" />
+    <Content Include="public\entity\index.html" />
     <Content Include="public\footer.html" />
     <Content Include="public\navbar_index.html" />
     <Content Include="public\navbar_data.html" />

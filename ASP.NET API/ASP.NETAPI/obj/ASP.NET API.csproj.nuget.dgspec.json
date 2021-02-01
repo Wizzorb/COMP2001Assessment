@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\inkbl\\source\\repos\\Wizzorb\\COMP2001Assessment\\ASP.NET API\\ASP.NETAPI\\ASP.NET API.csproj": {}
+    "C:\\Users\\inkbl\\Source\\Repos\\Wizzorb\\COMP2001Assessment\\ASP.NET API\\ASP.NETAPI\\ASP.NET API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\inkbl\\source\\repos\\Wizzorb\\COMP2001Assessment\\ASP.NET API\\ASP.NETAPI\\ASP.NET API.csproj": {
+    "C:\\Users\\inkbl\\Source\\Repos\\Wizzorb\\COMP2001Assessment\\ASP.NET API\\ASP.NETAPI\\ASP.NET API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\inkbl\\source\\repos\\Wizzorb\\COMP2001Assessment\\ASP.NET API\\ASP.NETAPI\\ASP.NET API.csproj",
+        "projectUniqueName": "C:\\Users\\inkbl\\Source\\Repos\\Wizzorb\\COMP2001Assessment\\ASP.NET API\\ASP.NETAPI\\ASP.NET API.csproj",
         "projectName": "ASP.NET API",
-        "projectPath": "C:\\Users\\inkbl\\source\\repos\\Wizzorb\\COMP2001Assessment\\ASP.NET API\\ASP.NETAPI\\ASP.NET API.csproj",
+        "projectPath": "C:\\Users\\inkbl\\Source\\Repos\\Wizzorb\\COMP2001Assessment\\ASP.NET API\\ASP.NETAPI\\ASP.NET API.csproj",
         "packagesPath": "C:\\Users\\inkbl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\inkbl\\source\\repos\\Wizzorb\\COMP2001Assessment\\ASP.NET API\\ASP.NETAPI\\obj\\",
+        "outputPath": "C:\\Users\\inkbl\\Source\\Repos\\Wizzorb\\COMP2001Assessment\\ASP.NET API\\ASP.NETAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\inkbl\\AppData\\Roaming\\NuGet\\NuGet.Config",
