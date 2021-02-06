@@ -80,6 +80,54 @@ HERE;
                 }
                 print "</table>";
                 ?>
+
+                <?php // content="text/plain; charset=utf-8"
+                //require_once $_SERVER['DOCUMENT_ROOT'].'resource/jpgraph/jpgraph.php';
+                //require_once $_SERVER['DOCUMENT_ROOT'].'resource/jpgraph/jpgraph_bar.php';
+
+                //$data1y=array(30273,28060,29451,28705,28209,26037,24037,21515,20539,21127,18713,18980,18763);
+
+
+                //// Create the graph. These two calls are always required
+                //$graph = new Graph(350,200,'auto');
+                //$graph->SetScale("textlin");
+
+                //$theme_class=new UniversalTheme;
+                //$graph->SetTheme($theme_class);
+
+                //$graph->yaxis->SetTickPositions(array(0,5000,10000,15000,20000,25000,30000,35000), array(2500,7500,12500,17500,22500,27500,32500));
+                //$graph->SetBox(false);
+
+                //$graph->ygrid->SetFill(false);
+                //$graph->xaxis->SetTickLabels(array('2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013'));
+                //$graph->yaxis->HideLine(false);
+                //$graph->yaxis->HideTicks(false,false);
+
+                //// Create the bar plots
+                //$b1plot = new BarPlot($data1y);
+                //$b2plot = new BarPlot($data2y);
+                //$b3plot = new BarPlot($data3y);
+
+                //// Create the grouped bar plot
+                //$gbplot = new GroupBarPlot(array($b1plot,$b2plot,$b3plot));
+                //// ...and add it to the graPH
+                //$graph->Add($gbplot);
+
+
+                //$b1plot->SetColor("white");
+                //$b1plot->SetFillColor("#cc1111");
+
+                //$b2plot->SetColor("white");
+                //$b2plot->SetFillColor("#11cccc");
+
+                //$b3plot->SetColor("white");
+                //$b3plot->SetFillColor("#1111cc");
+
+                //$graph->title->Set("Crime statistics ");
+
+                //// Display the graph
+                //$graph->Stroke();
+                ?>
             </div>
         </div>
     </div>

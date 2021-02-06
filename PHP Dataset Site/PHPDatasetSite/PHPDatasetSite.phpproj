@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
     <RuntimeVersion>7.4</RuntimeVersion>
-    <SpecificPageValue>public/data.php</SpecificPageValue>
+    <SpecificPageValue>public/data2.php</SpecificPageValue>
     <StartAction>SpecificPage</StartAction>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -18,7 +18,6 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="public\data.php" />
     <Compile Include="public\data2.php" />
     <Compile Include="public\index.php" />
   </ItemGroup>
@@ -26,6 +25,7 @@
     <Folder Include="public\entity\" />
     <Folder Include="public\" />
     <Folder Include="Properties\" />
+    <Folder Include="public\resource\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="public\entity\entity.json" />
